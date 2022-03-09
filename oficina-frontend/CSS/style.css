@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@300&display=swap');
+/* font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif; */
+body{
+    margin: 0 auto;
+}
+
+/* cor de fundo e alinhamentos */
+.container-header{
+    background-image: url("/IMG/1\ \(1\).png");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+/* div conteudo */
+.container-header .content{
+    padding: 100px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+/* conteudo do botao */
+.container-header .content a{
+    background: #ffffff;
+    color: #300166;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.container-header .content a:hover{
+    background-color: #300166;
+    color: #ffffff;
+}
+
+/* paragro do header */
+.container-header p{
+    font-size: 17px;
+    padding: 10px;
+}
+
+/*sobre mim*/
+.sobre-mim{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+
+/*conteudo sobre mim*/
+.sobre-mim .conteudo-sobre-mim{
+    display: flex;
+    flex-direction: row;
+}
+
+.sobre-mim h2{
+    font-size: 40px;
+    color:#62326b;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sobre-mim .resumo{
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.sobre-mim .resumo p{
+    font-size: 18px;
+    padding-bottom: 10px;
+    color:black;
+}
+
+.sobre-mim .resumo a{
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background: #ffffff;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #300166;
+    font-weight: bold;
+    color:#300166;
+    font-size: 18px;
+}
+
+.sobre-mim .resumo a:hover{
+    color: #ffffff;
+    background-color: #300166;
+}
+
+.sobre-mim .habilidades{
+    width: 40%;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 100px;
+}
+
+.sobre-mim .habilidades h3{
+    font-size: 22px;
+}
+
+.sobre-mim .habilidades ul{
+    font-size: 18px;   
+}
+
+.rodape{
+    padding: 15px;
+}
+
+.rodape .rodape-content{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rodape .rodape-content .linkedin{
+    background:#300166;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.rodape .rodape-content .linkedin:hover{
+    background-color: #000000;
+}
+
+.rodape .rodape-content .github{
+    background: #300166;
+    color:#ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.rodape .rodape-content .github:hover{
+    background-color: #000000;
+}
+
+.rodape .rodape-content .facebook{
+    background:#300166;
+    color:#ffffff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.rodape .rodape-content .facebook:hover{
+    background-color: #000000;
+}
+
+.rodape .rodape-content .linkedin img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape .rodape-content .facebook img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape .rodape-content .github img{
+    height: 80px;
+    width: 80px;
+    object-fit: contain;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape .rodape-content .linkedin a{
+    padding-top: 10px;
+    padding-left: 8px;  
+    padding-right: 8px; 
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.rodape .rodape-content .github a{
+    padding-top: 10px;
+    padding-left: 15px;  
+    padding-right: 15px;  
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.rodape .rodape-content .facebook a{
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.rodape .rodape-content .linkedin p{
+    color: #ffffffa2;
+}
+
+.rodape .rodape-content .github p{
+    color: #ffffffa2;
+}
+
+.rodape .rodape-content .facebook p{
+    color: #ffffffa2;
+}
